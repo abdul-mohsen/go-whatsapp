@@ -17,7 +17,7 @@ A comprehensive, production-ready Go library for the WhatsApp Business Cloud API
 ## Installation
 
 ```bash
-go get github.com/yourusername/whatsapp-go
+go get github.com/abdul-mohsen/whatsapp-go
 ```
 
 ## Quick Start
@@ -67,8 +67,8 @@ import (
     "context"
     "log"
 
-    "github.com/yourusername/whatsapp-go/pkg/client"
-    "github.com/yourusername/whatsapp-go/pkg/config"
+    "github.com/abdul-mohsen/go-whatsapp/pkg/client"
+    "github.com/abdul-mohsen/go-whatsapp/pkg/config"
 )
 
 func main() {
@@ -104,9 +104,9 @@ import (
     "context"
     "log"
 
-    "github.com/yourusername/whatsapp-go/pkg/client"
-    "github.com/yourusername/whatsapp-go/pkg/config"
-    "github.com/yourusername/whatsapp-go/pkg/webhook"
+    "github.com/abdul-mohsen/go-whatsapp/pkg/client"
+    "github.com/abdul-mohsen/go-whatsapp/pkg/config"
+    "github.com/abdul-mohsen/go-whatsapp/pkg/webhook"
 )
 
 func main() {
@@ -331,7 +331,7 @@ waClient.DeleteMedia(ctx, mediaID)
 ## Project Structure
 
 ```
-whatsapp-go/
+go-whatsapp/
 ├── pkg/
 │   ├── client/         # WhatsApp API client
 │   │   ├── client.go   # Core HTTP client
@@ -403,3 +403,4 @@ MIT License - see LICENSE file for details.
 - [Meta for Developers](https://developers.facebook.com/)
 - [Error Codes Reference](https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes)
 - [Pricing Information](https://developers.facebook.com/docs/whatsapp/pricing)
+
